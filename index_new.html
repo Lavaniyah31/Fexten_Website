@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fexten - Cloud-Based ERP Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-white">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top border-bottom border-gray-800">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <div class="logo-container">
+                    <svg width="40" height="40" viewBox="0 0 40 40" class="me-2">
+                        <path d="M5 5 L20 2 L35 5 L20 35 Z" fill="#3B82F6" stroke="#60A5FA" stroke-width="2"/>
+                        <text x="12" y="22" fill="white" font-size="16" font-weight="bold">F</text>
+                    </svg>
+                </div>
+                <span class="fs-4 fw-bold">Fexten</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item"><a class="nav-link text-white hover-effect" href="#home">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Solutions</a>
+                        <ul class="dropdown-menu dropdown-menu-dark bg-gray-900">
+                            <li><a class="dropdown-item" href="#erp-mini">ERP Cloud MINI</a></li>
+                            <li><a class="dropdown-item" href="#erp-lite">ERP Cloud LITE</a></li>
+                            <li><a class="dropdown-item" href="#erp-premium">ERP Cloud PREMIUM</a></li>
+                            <li><a class="dropdown-item" href="#erp-local">ERP Local SATC</a></li>
+                            <li><a class="dropdown-item" href="#erp-custom">ERP Custom Edition</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-white hover-effect" href="#benefits">Benefits</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Company</a>
+                        <ul class="dropdown-menu dropdown-menu-dark bg-gray-900">
+                            <li><a class="dropdown-item" href="#partner">Partner</a></li>
+                            <li><a class="dropdown-item" href="#careers">Careers</a></li>
+                            <li><a class="dropdown-item" href="#blog">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-white hover-effect" href="#contact">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">vCard</a>
+                        <ul class="dropdown-menu dropdown-menu-dark bg-gray-900">
+                            <li><a class="dropdown-item" href="#vcard">vCard</a></li>
+                            <li><a class="dropdown-item" href="#vcard-qr">vCard (QR) Page</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section min-vh-100 d-flex align-items-center position-relative overflow-hidden" style="margin-top: 56px;">
+        <div class="geometric-bg"></div>
+        <div class="container position-relative z-index-1">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-bold mb-4 animate-fadeInLeft">
+                        Make Your <br>
+                        <span class="text-blue">Business Operations</span><br>
+                        Better
+                    </h1>
+                    <div class="d-flex gap-3 mt-4 animate-fadeInUp">
+                        <a href="#contact" class="btn btn-primary btn-lg rounded-pill px-5 py-3">Get Started</a>
+                        <a href="#solutions" class="btn btn-outline-light btn-lg rounded-pill px-5 py-3">Our Services</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="illustration-container animate-fadeInRight">
+                        <img src="https://via.placeholder.com/600x400/1a1a1a/3B82F6?text=Business+Operations" alt="Business Operations" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#who-we-are" class="text-white">
+                    <i class="fas fa-chevron-down fa-2x animate-bounce"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Are -->
+    <section id="who-we-are" class="py-5 bg-gray-900">
+        <div class="container py-5">
+            <h2 class="text-center display-5 fw-bold mb-5">Who We Are?</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <p class="lead text-center text-gray-300 mb-5">
+                        We specialize in delivering cloud-based ERP solutions designed to empower micro, small, and medium scale businesses across the globe. Our innovative software helps streamline operations, improve efficiency, and drive growth by offering scalable, easy-to-implement solutions tailored to your unique business needs. Whether you're just starting out or scaling up, we're here to help you manage your processes more effectively and achieve your goals with confidence.
+                    </p>
+                    <div class="row g-4 mt-4">
+                        <div class="col-md-4">
+                            <div class="feature-card p-4 text-center h-100">
+                                <div class="icon-circle mb-3">
+                                    <i class="fas fa-network-wired fa-3x text-blue"></i>
+                                </div>
+                                <h4 class="fw-bold mb-3">Integrated Solutions</h4>
+                                <p class="text-gray-400">We strive to provide fully integrated solutions that connect all aspects of your business, from POS sales, inventory, accounting to HR with payroll.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature-card p-4 text-center h-100">
+                                <div class="icon-circle mb-3">
+                                    <i class="fas fa-cogs fa-3x text-blue"></i>
+                                </div>
+                                <h4 class="fw-bold mb-3">Customizable to Your Needs</h4>
+                                <p class="text-gray-400">We work closely with each client to tailor our software to meet specific business requirements, ensuring the system fits your exact needs.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature-card p-4 text-center h-100">
+                                <div class="icon-circle mb-3">
+                                    <i class="fas fa-smile fa-3x text-blue"></i>
+                                </div>
+                                <h4 class="fw-bold mb-3">User-Friendly Experience</h4>
+                                <p class="text-gray-400">Our solutions feature intuitive, user-friendly interfaces that require minimal training, ensuring your team can quickly adapt and utilize the system effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is ERP -->
+    <section id="what-is-erp" class="py-5 bg-black">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">What is ERP?</h2>
+                    <p class="text-gray-300 mb-4">
+                        ERP (Enterprise Resource Planning) is a comprehensive software solution that helps businesses manage and integrate the core functions of their operations. It unifies various processes, such as finance, human resources, sales, inventory management, and supply chain operations, into a single system.
+                    </p>
+                    <p class="text-gray-300">
+                        By centralizing data and automating routine tasks, ERP systems improve efficiency, reduce errors, and provide real-time insights to help businesses make informed decisions. With features like real-time reporting, seamless integration, and customizable workflows, ERP enables organizations to streamline their operations, improve collaboration across departments, and adapt to the evolving needs of business.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/600x400/1a1a1a/3B82F6?text=ERP+System" alt="ERP System" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is Cloud-Based -->
+    <section id="cloud-based" class="py-5 bg-gray-900">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <h2 class="display-5 fw-bold mb-4">What is Cloud-Based Solutions?</h2>
+                    <p class="text-gray-300 mb-4">
+                        Cloud-based solutions refer to software applications, services, and data storage that are hosted on remote servers and accessed via the internet, rather than being installed and stored on local computers or on-premises hardware. These solutions allow businesses and users to access tools, data, and resources from any location with an internet connection, offering flexibility and convenience.
+                    </p>
+                    <p class="text-gray-300">
+                        Cloud-based solutions typically operate on a subscription or pay-as-you-go model, reducing upfront costs for hardware and maintenance. They provide scalability, as businesses can easily expand their storage or software capabilities as needed. Additionally, cloud-based solutions offer automatic updates, improved data security, and disaster recovery features, ensuring that critical business operations continue smoothly with minimal downtime.
+                    </p>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <img src="https://via.placeholder.com/600x400/1a1a1a/3B82F6?text=Cloud+Solutions" alt="Cloud Solutions" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Provide -->
+    <section id="solutions" class="py-5 bg-black">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">What We Provide?</h2>
+                <p class="lead text-gray-300">We offer a comprehensive suite of cloud-based ERP solutions to meet the diverse needs of micro, small, and medium scale businesses.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card h-100 p-4">
+                        <div class="solution-icon mb-3">
+                            <i class="fas fa-seedling fa-3x text-blue"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3">ERP Cloud MINI</h3>
+                        <p class="text-gray-400">A basic ERP for startups and micro businesses to handle daily operations quickly and efficiently.</p>
+                        <a href="#erp-mini" class="btn btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card h-100 p-4">
+                        <div class="solution-icon mb-3">
+                            <i class="fas fa-rocket fa-3x text-blue"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3">ERP Cloud LITE</h3>
+                        <p class="text-gray-400">A simple and reliable ERP solution designed for small businesses seeking efficiency and ease of use.</p>
+                        <a href="#erp-lite" class="btn btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card h-100 p-4">
+                        <div class="solution-icon mb-3">
+                            <i class="fas fa-crown fa-3x text-blue"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3">ERP Cloud PREMIUM</h3>
+                        <p class="text-gray-400">A powerful solution for medium businesses needing advanced features, high scalability, and full control across complex operations.</p>
+                        <a href="#erp-premium" class="btn btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card h-100 p-4">
+                        <div class="solution-icon mb-3">
+                            <i class="fas fa-server fa-3x text-blue"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3">ERP Local SATC</h3>
+                        <p class="text-gray-400">A reliable on-premises ERP solution designed for businesses seeking complete local control and dependable performance.</p>
+                        <a href="#erp-local" class="btn btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="solution-card h-100 p-4">
+                        <div class="solution-icon mb-3">
+                            <i class="fas fa-magic fa-3x text-blue"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3">ERP Custom Edition</h3>
+                        <p class="text-gray-400">A fully personalized ERP solution crafted to fit the unique needs of each business, ensuring seamless integration and adaptability.</p>
+                        <a href="#erp-custom" class="btn btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="benefits" class="py-5 bg-gray-900">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Why Choose Us?</h2>
+                <p class="lead text-gray-300">We're dedicated to helping your business thrive with personalized solutions.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="benefit-card text-center p-5 h-100">
+                        <i class="fas fa-cloud fa-4x text-blue mb-4"></i>
+                        <h3 class="fw-bold mb-3">Cloud-Based Flexibility</h3>
+                        <p class="text-gray-400">With our cloud-based solutions, you can access your business data from anywhere, at any time.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="benefit-card text-center p-5 h-100">
+                        <i class="fas fa-sliders-h fa-4x text-blue mb-4"></i>
+                        <h3 class="fw-bold mb-3">Customizable Solutions</h3>
+                        <p class="text-gray-400">Whether you require special features, we work closely with you to ensure our systems fit seamlessly with your business.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="benefit-card text-center p-5 h-100">
+                        <i class="fas fa-headset fa-4x text-blue mb-4"></i>
+                        <h3 class="fw-bold mb-3">24/7 Dedicated Support</h3>
+                        <p class="text-gray-400">With our 24/7 dedicated support team, we ensure that you always have access to expert help whenever you need it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5 py-4">
+                <h3 class="display-6 fw-bold text-blue">50+</h3>
+                <p class="lead text-gray-300">Serving more than 50 clients across the globe, we deliver reliable solutions trusted by businesses worldwide.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Clients -->
+    <section id="clients" class="py-5 bg-black">
+        <div class="container py-5">
+            <h2 class="text-center display-5 fw-bold mb-5">Our Premium Clients</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="client-card text-center p-4">
+                        <h5 class="fw-bold">Ranjanas Textile</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="client-card text-center p-4">
+                        <h5 class="fw-bold">Ram Bros Textile</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="client-card text-center p-4">
+                        <h5 class="fw-bold">Lalitha Textile</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="client-card text-center p-4">
+                        <h5 class="fw-bold">Metro Ceramic</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="client-card text-center p-4">
+                        <h5 class="fw-bold">Shansu Motors</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5 bg-gray-900 position-relative overflow-hidden">
+        <div class="testimonial-bg-pattern"></div>
+        <div class="container py-5 position-relative">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3 animate-on-scroll">What Others Say?</h2>
+                <p class="lead text-gray-300 animate-on-scroll">Trusted by businesses worldwide</p>
+            </div>
+            
+            <!-- Testimonial Carousel Container -->
+            <div class="testimonial-carousel-wrapper">
+                <button class="testimonial-nav-btn testimonial-prev" onclick="scrollTestimonials(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="testimonial-carousel" id="testimonialCarousel">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card-modern p-5">
+                            <div class="stars mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text mb-4">"Since implementing Fexten's ERP system, our operations have become much more streamlined. The cloud-based solution is easy to use and helps us manage everything from inventory to finance in one place. The team was also incredibly supportive in customizing the system to our specific needs."</p>
+                            <div class="d-flex align-items-center">
+                                <div class="testimonial-avatar-modern me-3">
+                                    <i class="fas fa-user-circle fa-3x"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Arulraj Subramaniam</h5>
+                                    <p class="text-blue mb-0">CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card-modern p-5">
+                            <div class="stars mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text mb-4">"The ERP system provided by Fexten has transformed the way we manage our business. It's user-friendly and integrates seamlessly with our daily operations. The team's 24/7 support has been fantastic and helps us resolve any issues quickly."</p>
+                            <div class="d-flex align-items-center">
+                                <div class="testimonial-avatar-modern me-3">
+                                    <i class="fas fa-user-circle fa-3x"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Pradeep Silva</h5>
+                                    <p class="text-blue mb-0">Director</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card-modern p-5">
+                            <div class="stars mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text mb-4">"The customizable features of Fexten's software have been a game-changer for our business. We've been able to tailor the system to our unique processes, which has increased our efficiency and productivity. Plus, their 24/7 support gives us peace of mind knowing help is always available."</p>
+                            <div class="d-flex align-items-center">
+                                <div class="testimonial-avatar-modern me-3">
+                                    <i class="fas fa-user-circle fa-3x"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Rajeshwari Ponambalam</h5>
+                                    <p class="text-blue mb-0">Head of Operations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card-modern p-5">
+                            <div class="stars mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text mb-4">"We've been using Fexten's ERP solution for several months now, and it has made a huge difference in our day-to-day operations. It's so easy to navigate, and the integration with various departments has improved our overall productivity."</p>
+                            <div class="d-flex align-items-center">
+                                <div class="testimonial-avatar-modern me-3">
+                                    <i class="fas fa-user-circle fa-3x"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Nimal Perera</h5>
+                                    <p class="text-blue mb-0">Chartered Accountant</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card-modern p-5">
+                            <div class="stars mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text mb-4">"The shift to Fexten's cloud-based system has made a huge impact on our operations. The seamless integration across various business functions has improved our efficiency and data accuracy. It's been one of the best decisions we've made for our business!"</p>
+                            <div class="d-flex align-items-center">
+                                <div class="testimonial-avatar-modern me-3">
+                                    <i class="fas fa-user-circle fa-3x"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">John Emily</h5>
+                                    <p class="text-blue mb-0">HR Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="testimonial-nav-btn testimonial-next" onclick="scrollTestimonials(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <!-- Carousel Indicators -->
+            <div class="testimonial-dots mt-5" id="testimonialDots"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-black">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5">
+                        <h2 class="display-5 fw-bold mb-3">Get In Touch</h2>
+                        <p class="lead text-gray-300">Let's discuss how we can help transform your business operations</p>
+                    </div>
+                    <form class="contact-form p-5 bg-gray-900 rounded">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control form-control-lg bg-black text-white border-gray-700" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control form-control-lg bg-black text-white border-gray-700" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control form-control-lg bg-black text-white border-gray-700" placeholder="Phone Number">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control form-control-lg bg-black text-white border-gray-700" placeholder="Company Name">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control form-control-lg bg-black text-white border-gray-700" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg px-5 py-3 rounded-pill">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-5 border-top border-gray-800">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h4 class="fw-bold mb-3">Fexten</h4>
+                    <p class="text-gray-400">Cloud-Based ERP Solutions for Modern Businesses</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">Solutions</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#erp-mini" class="text-gray-400 text-decoration-none">ERP Cloud MINI</a></li>
+                        <li><a href="#erp-lite" class="text-gray-400 text-decoration-none">ERP Cloud LITE</a></li>
+                        <li><a href="#erp-premium" class="text-gray-400 text-decoration-none">ERP Cloud PREMIUM</a></li>
+                        <li><a href="#erp-local" class="text-gray-400 text-decoration-none">ERP Local SATC</a></li>
+                        <li><a href="#erp-custom" class="text-gray-400 text-decoration-none">ERP Custom</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#partner" class="text-gray-400 text-decoration-none">Partner</a></li>
+                        <li><a href="#careers" class="text-gray-400 text-decoration-none">Careers</a></li>
+                        <li><a href="#blog" class="text-gray-400 text-decoration-none">Blog</a></li>
+                        <li><a href="#contact" class="text-gray-400 text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">Contact Info</h5>
+                    <ul class="list-unstyled text-gray-400">
+                        <li><i class="fas fa-envelope me-2"></i> info@fexten.com</li>
+                        <li><i class="fas fa-phone me-2"></i> +1 234 567 8900</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Global Headquarters</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-gray-800 my-4">
+            <div class="text-center text-gray-400">
+                <p class="mb-0">&copy; 2026 Fexten. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
