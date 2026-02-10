@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fexten Solutions | Cloud-Based ERP</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <h1 class="welcome-text">Welcome</h1>
+            <div class="logo-animation">
+                FEXTEN
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <nav class="navbar">
+        <div class="container header-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="assets/img/logo_whit.jpeg" alt="FEXTEN" class="nav-logo-img">
+                </a>
+            </div>
+            <div class="mobile-menu-btn">☰</div>
+            <div class="nav-links">
+                <a href="index.html" data-page="index">Home</a>
+                <a href="solutions.html" data-page="solutions">Solutions</a>
+                <a href="benefits.html" data-page="benefits">Benefits</a>
+                <a href="company.html" data-page="company">Company</a>
+                <a href="partner.html" data-page="partner">Partner</a>
+                <a href="careers.html" data-page="careers">Careers</a>
+                <a href="blog.html" data-page="blog">Blog</a>
+                <a href="contact.html" data-page="contact">Contact</a>
+                <button class="theme-toggle" id="theme-toggle">
+                    <span class="mode-text">Dark Mode</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header class="section hero text-center bg-black-section">
+        <div class="hero-bg-shapes">
+            <!-- Dodecahedron Wireframe -->
+            <svg class="geo-shape shape-1" viewBox="0 0 200 200" style="stroke: currentColor;">
+                <path d="M100 20 L160 50 L160 120 L100 150 L40 120 L40 50 Z" />
+                <path
+                    d="M100 20 L100 60 L160 50 M100 60 L160 120 M100 150 L100 110 L160 120 M100 110 L40 120 M40 50 L100 60 M40 120 L40 50 M100 110 L40 120" />
+                <circle cx="100" cy="20" r="1.5" fill="currentColor" />
+                <circle cx="160" cy="50" r="1.5" fill="currentColor" />
+                <circle cx="160" cy="120" r="1.5" fill="currentColor" />
+                <circle cx="100" cy="150" r="1.5" fill="currentColor" />
+                <circle cx="40" cy="120" r="1.5" fill="currentColor" />
+                <circle cx="40" cy="50" r="1.5" fill="currentColor" />
+            </svg>
+            <!-- Icosahedron Wireframe -->
+            <svg class="geo-shape shape-2" viewBox="0 0 200 200" style="stroke: currentColor;">
+                <path d="M100 20 L180 80 L150 160 L50 160 L20 80 Z" />
+                <path d="M100 20 L150 160 M100 20 L50 160 M180 80 L20 80 M180 80 L50 160 M20 80 L150 160" />
+            </svg>
+            <!-- Small Accent Shape -->
+            <svg class="geo-shape shape-3" viewBox="0 0 100 100" style="stroke: currentColor;">
+                <rect x="25" y="25" width="50" height="50" transform="rotate(45 50 50)" />
+            </svg>
+        </div>
+        <div class="container" style="padding-top: 60px;">
+            <h1>Make Your Business Operations Better</h1>
+            <p class="mb-2" style="max-width: 800px; margin: 0 auto; font-size: 1.2rem; opacity: 0.8;">
+                Empowering micro, small, and medium scale businesses with innovative, scalable cloud-based ERP
+                solutions.
+            </p>
+            <div style="margin-top: 50px;">
+                <a href="contact.html" class="btn btn-filled">Get Started</a>
+                <a href="solutions.html" class="btn" style="margin-left: 20px;">Explore Solutions</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Who We Are -->
+    <section class="section bg-white-section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 80px; align-items: center;">
+                <div>
+                    <h2 style="font-size: 3rem; text-transform: uppercase;">Who We Are?</h2>
+                    <p style="font-size: 1.1rem; margin-bottom: 25px; line-height: 1.8;">
+                        We specialize in delivering cloud-based ERP solutions designed to empower micro, small, and
+                        medium scale businesses across the globe.
+                    </p>
+                    <p style="opacity: 0.8; line-height: 1.8;">
+                        Our innovative software helps streamline operations, improve efficiency, and drive growth by
+                        offering scalable, easy-to-implement solutions tailored to your unique business needs. Whether
+                        you're just starting out or scaling up, we're here to help you manage your processes more
+                        effectively and achieve your goals with confidence.
+                    </p>
+                </div>
+                <div
+                    style="background: #000; color: #fff; height: 400px; display: flex; flex-direction: column; justify-content: center; padding: 40px; border: 10px solid #f0f0f0;">
+                    <h3 style="color: #fff; text-transform: uppercase;">Innovation & Growth</h3>
+                    <p style="color: #ccc; font-size: 0.9rem;">Tailored solutions for your unique business needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrated / Customizable / User-Friendly -->
+    <section class="section bg-black-section" style="border-top: 1px solid #333;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px;">
+                <div class="card" style="background: #111; border-color: #333;">
+                    <h3 style="text-transform: uppercase; font-size: 1.2rem;">Integrated Solutions</h3>
+                    <p style="opacity: 0.7; font-size: 0.95rem;">We strive to provide fully integrated solutions that
+                        connect all aspects of your business, from POS sales, inventory, accounting to HR with payroll.
+                    </p>
+                </div>
+                <div class="card" style="background: #111; border-color: #333;">
+                    <h3 style="text-transform: uppercase; font-size: 1.2rem;">Customizable to Your Needs</h3>
+                    <p style="opacity: 0.7; font-size: 0.95rem;">We work closely with each client to tailor our software
+                        to meet specific business requirements, ensuring the system fits your exact needs.</p>
+                </div>
+                <div class="card" style="background: #111; border-color: #333;">
+                    <h3 style="text-transform: uppercase; font-size: 1.2rem;">User-Friendly Experience</h3>
+                    <p style="opacity: 0.7; font-size: 0.95rem;">Our solutions feature intuitive, user-friendly
+                        interfaces that require minimal training, ensuring your team can quickly adapt and utilize the
+                        system effectively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Knowledge Base (ERP & Cloud) -->
+    <section class="section bg-white-section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 100px;">
+                <div>
+                    <h2 style="text-transform: uppercase;">What is ERP?</h2>
+                    <p style="margin-bottom: 20px;">
+                        ERP (Enterprise Resource Planning) is a comprehensive software solution that helps businesses
+                        manage and integrate the core functions of their operations. It unifies various processes, such
+                        as finance, human resources, sales, inventory management, and supply chain operations, into a
+                        single system.
+                    </p>
+                    <p style="opacity: 0.7;">
+                        By centralizing data and automating routine tasks, ERP systems improve efficiency, reduce
+                        errors, and provide real-time insights to help businesses make informed decisions. With features
+                        like real-time reporting, seamless integration, and customizable workflows, ERP enables
+                        organizations to streamline their operations, improve collaboration across departments, and
+                        adapt to the evolving needs of business.
+                    </p>
+                </div>
+                <div>
+                    <h2 style="text-transform: uppercase;">What is Cloud-Based Solutions?</h2>
+                    <p style="margin-bottom: 20px;">
+                        Cloud-based solutions refer to software applications, services, and data storage that are hosted
+                        on remote servers and accessed via the internet, rather than being installed and stored on local
+                        computers or on-premises hardware. These solutions allow businesses and users to access tools,
+                        data, and resources from any location with an internet connection, offering flexibility and
+                        convenience.
+                    </p>
+                    <p style="opacity: 0.7;">
+                        Cloud-based solutions typically operate on a subscription or pay-as-you-go model, reducing
+                        upfront costs for hardware and maintenance. They provide scalability, as businesses can easily
+                        expand their storage or software capabilities as needed. Additionally, cloud-based solutions
+                        offer automatic updates, improved data security, and disaster recovery features, ensuring that
+                        critical business operations continue smoothly with minimal downtime.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section bg-black-section" style="border-top: 1px solid #333;">
+        <div class="container text-center">
+            <h2 style="font-size: 3rem; text-transform: uppercase; margin-bottom: 40px;">What We Provide?</h2>
+            <p style="max-width: 800px; margin: 0 auto 60px; opacity: 0.7;">
+                We offer a comprehensive suite of cloud-based ERP solutions to meet the diverse needs of micro, small,
+                and medium scale businesses. Our products are designed to streamline your operations, improve
+                decision-making, and fuel growth, all in a secure and scalable environment.
+            </p>
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; text-align: left;">
+                <div style="border: 1px solid #333; padding: 30px;">
+                    <h4 style="text-transform: uppercase;">ERP Cloud MINI</h4>
+                    <p style="font-size: 0.85rem; opacity: 0.6;">A basic ERP for startups and micro businesses to handle
+                        daily operations quickly and efficiently.</p>
+                </div>
+                <div style="border: 1px solid #333; padding: 30px;">
+                    <h4 style="text-transform: uppercase;">ERP Cloud LITE</h4>
+                    <p style="font-size: 0.85rem; opacity: 0.6;">A simple and reliable ERP solution designed for small
+                        businesses seeking efficiency and ease of use.</p>
+                </div>
+                <div style="border: 1px solid #333; padding: 30px;">
+                    <h4 style="text-transform: uppercase;">ERP Cloud PREMIUM</h4>
+                    <p style="font-size: 0.85rem; opacity: 0.6;">A powerful solution for medium businesses needing
+                        advanced features, high scalability, and full control across complex operations.</p>
+                </div>
+                <div style="border: 1px solid #333; padding: 30px;">
+                    <h4 style="text-transform: uppercase;">ERP Local SATC</h4>
+                    <p style="font-size: 0.85rem; opacity: 0.6;">A reliable on-premises ERP solution designed for
+                        businesses seeking complete local control and dependable performance.</p>
+                </div>
+                <div style="border: 1px solid #333; padding: 30px;">
+                    <h4 style="text-transform: uppercase;">ERP Custom Edition</h4>
+                    <p style="font-size: 0.85rem; opacity: 0.6;">A fully personalized ERP solution crafted to fit the
+                        unique needs of each business, ensuring seamless integration and adaptability.</p>
+                </div>
+            </div>
+            <div style="margin-top: 60px;">
+                <a href="solutions.html" class="btn">View All Solutions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section bg-white-section">
+        <div class="container">
+            <h2 class="text-center" style="font-size: 3rem; text-transform: uppercase; margin-bottom: 60px;">Why Choose
+                Us?</h2>
+            <p class="text-center" style="max-width: 800px; margin: -40px auto 60px; opacity: 0.7;">
+                We’re dedicated to helping your business thrive with personalized solutions. Here’s why businesses
+                around the world choose us:
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 60px;">
+                <div class="text-center">
+                    <h4 style="text-transform: uppercase;">Cloud-Based Flexibility</h4>
+                    <p style="opacity: 0.8;">With our cloud-based solutions, you can access your business data from
+                        anywhere, at any time.</p>
+                </div>
+                <div class="text-center">
+                    <h4 style="text-transform: uppercase;">Customizable Solutions</h4>
+                    <p style="opacity: 0.8;">Whether you require special features, we work closely with you to ensure
+                        our systems fit seamlessly with your business.</p>
+                </div>
+                <div class="text-center">
+                    <h4 style="text-transform: uppercase;">24/7 Dedicated Support</h4>
+                    <p style="opacity: 0.8;">With our 24/7 dedicated support team, we ensure that you always have access
+                        to expert help whenever you need it.</p>
+                </div>
+            </div>
+            <a href="company.html" class="clients-badge">
+                SERVING MORE THAN 50 CLIENTS ACROSS THE GLOBE
+            </a>
+        </div>
+    </section>
+
+    <!-- Clients & Testimonials -->
+    <section class="section bg-black-section" style="border-top: 1px solid #333;">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 80px;">
+                <h3 style="text-transform: uppercase; font-size: 2rem; margin-bottom: 40px;">Our Premium Clients</h3>
+                <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; opacity: 0.5;">
+                    <div style="border: 1px solid #333; padding: 20px; font-weight: 700; font-size: 0.8rem;">RANJANAS
+                        TEXTILE</div>
+                    <div style="border: 1px solid #333; padding: 20px; font-weight: 700; font-size: 0.8rem;">RAM BROS
+                        TEXTILE</div>
+                    <div style="border: 1px solid #333; padding: 20px; font-weight: 700; font-size: 0.8rem;">LALITHA
+                        TEXTILE</div>
+                    <div style="border: 1px solid #333; padding: 20px; font-weight: 700; font-size: 0.8rem;">METRO
+                        CERAMIC</div>
+                    <div style="border: 1px solid #333; padding: 20px; font-weight: 700; font-size: 0.8rem;">SHANSU
+                        MOTORS</div>
+                </div>
+            </div>
+
+            <h2 class="text-center" style="text-transform: uppercase; font-size: 2.5rem; margin-bottom: 60px;">What
+                Others Say?</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <!-- Testimonial 1 -->
+                <div style="padding: 40px; border: 1px solid #333; background: #080808;">
+                    <p style="font-style: italic; margin-bottom: 25px; opacity: 0.8; font-size: 0.95rem;">"Since
+                        implementing Fexten's ERP system, our operations have become much more streamlined. The
+                        cloud-based solution is easy to use and helps us manage everything from inventory to finance in
+                        one place. The team was also incredibly supportive in customizing the system to our specific
+                        needs."</p>
+                    <strong>Arulraj Subramaniam</strong><br>
+                    <span
+                        style="font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 1px;">CEO</span>
+                </div>
+                <!-- Testimonial 2 -->
+                <div style="padding: 40px; border: 1px solid #333; background: #080808;">
+                    <p style="font-style: italic; margin-bottom: 25px; opacity: 0.8; font-size: 0.95rem;">"The ERP
+                        system provided by Fexten has transformed the way we manage our business. It’s user-friendly and
+                        integrates seamlessly with our daily operations. The team’s 24/7 support has been fantastic and
+                        helps us resolve any issues quickly."</p>
+                    <strong>Pradeep Silva</strong><br>
+                    <span
+                        style="font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 1px;">Director</span>
+                </div>
+                <!-- Testimonial 3 -->
+                <div style="padding: 40px; border: 1px solid #333; background: #080808;">
+                    <p style="font-style: italic; margin-bottom: 25px; opacity: 0.8; font-size: 0.95rem;">"The
+                        customizable features of Fexten's software have been a game-changer for our business. We've been
+                        able to tailor the system to our unique processes, which has increased our efficiency and
+                        productivity. Plus, their 24/7 support gives us peace of mind knowing help is always available."
+                    </p>
+                    <strong>Rajeshwari Ponambalam</strong><br>
+                    <span style="font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 1px;">Head
+                        of Operations</span>
+                </div>
+                <!-- Testimonial 4 -->
+                <div style="padding: 40px; border: 1px solid #333; background: #080808;">
+                    <p style="font-style: italic; margin-bottom: 25px; opacity: 0.8; font-size: 0.95rem;">"We’ve been
+                        using Fexten's ERP solution for several months now, and it has made a huge difference in our
+                        day-to-day operations. It’s so easy to navigate, and the integration with various departments
+                        has improved our overall productivity."</p>
+                    <strong>Nimal Perera</strong><br>
+                    <span
+                        style="font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 1px;">Charted
+                        Accountant</span>
+                </div>
+                <!-- Testimonial 5 -->
+                <div style="padding: 40px; border: 1px solid #333; background: #080808;">
+                    <p style="font-style: italic; margin-bottom: 25px; opacity: 0.8; font-size: 0.95rem;">"The shift to
+                        Fexten's cloud-based system has made a huge impact on our operations. The seamless integration
+                        across various business functions has improved our efficiency and data accuracy. It’s been one
+                        of the best decisions we've made for our business!"</p>
+                    <strong>John Emily</strong><br>
+                    <span style="font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 1px;">HR
+                        Manager</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px;">
+                <div>
+                    <h3 style="font-weight: 900; letter-spacing: -1px;">FEXTEN</h3>
+                    <p style="font-size: 0.9rem; line-height: 1.6; opacity: 0.8;">At Fexten, we provide innovative,
+                        cloud-based ERP solutions that empower businesses worldwide. Whether you're a micro, small, or
+                        medium scale enterprise, we offer customizable, scalable, and user-friendly systems tailored to
+                        your
+                        needs. Contact us today to learn how our solutions can help streamline your operations and drive
+                        growth.</p>
+                </div>
+                <div>
+                    <h4 style="text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px;">Solutions</h4>
+                    <ul style="line-height: 2.2; font-size: 0.9rem;">
+                        <li><a href="solutions.html">ERP Cloud MINI</a></li>
+                        <li><a href="solutions.html">ERP Cloud LITE</a></li>
+                        <li><a href="solutions.html">ERP Cloud PREMIUM</a></li>
+                        <li><a href="solutions.html">ERP Local SATC</a></li>
+                        <li><a href="solutions.html">ERP Custom Edition</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px;">Company</h4>
+                    <ul style="line-height: 2.2; font-size: 0.9rem;">
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="partner.html">Partner</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px;">Contact</h4>
+                    <p style="font-size: 0.9rem; margin-bottom: 10px;">Email: fextensolutions@hotmail.com</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 20px;">WhatsApp: +94 76 707 1566</p>
+                    <div style="display: flex; gap: 20px;">
+                        <a href="https://web.facebook.com/profile.php?id=61559175011664" target="_blank"
+                            class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/fexten_solutions" target="_blank" class="social-icon"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom"
+                style="margin-top: 80px; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; font-size: 0.8rem; opacity: 0.5; letter-spacing: 1px;">
+                &copy; 2026 Fexten Solutions (Pvt) Ltd. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
