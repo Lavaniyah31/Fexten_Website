@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
@@ -73,76 +74,100 @@
 
     <section class="section bg-white-section">
         <div class="container">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start;">
-                <div>
-                    <h2 style="text-transform: uppercase;">The Partner Program</h2>
-                    <p style="line-height: 1.8; margin-bottom: 25px;">
-                        Our Partner Program is designed for Consultants, IT firms, Audit firms, Marketing Agents and
-                        business advisors who want to grow by offering powerful digital solutions to their clients. By
-                        partnering with Fexten, you gain access to our ERP Cloud Products, along with full training,
-                        technical support, and marketing assistance.
-                    </p>
-                    <p style="opacity: 0.7; line-height: 1.8;">
-                        As a Fexten Partner, you can expand your service portfolio, increase revenue opportunities, and
-                        deliver high-value solutions to businesses across industries. We provide tools, resources, and
-                        ongoing guidance to ensure you can confidently represent and implement Fexten products.
-                    </p>
-                    <div style="margin-top: 40px; padding: 30px; border-left: 5px solid #000; background: #f9f9f9;">
-                        <h4 style="text-transform: uppercase; margin-bottom: 10px;">Together, we build success.</h4>
-                        <p style="font-size: 0.9rem; opacity: 0.6;">Join us and become part of a growing network
-                            transforming businesses through scalable technology.</p>
+            <div class="partner-grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start;">
+                
+                <!-- Partner Information -->
+                <div class="partner-info-section">
+                    <div class="partner-info-card" style="animation: slideInLeft 0.8s ease-out;">
+                        <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                            <i class="fas fa-handshake partner-icon" style="font-size: 2.5rem;"></i>
+                            <h2 style="text-transform: uppercase; margin: 0; font-size: 1.8rem;">Partner With Fexten</h2>
+                        </div>
+                        <p style="line-height: 1.8; font-size: 1.05rem; text-align: justify; margin-bottom: 20px;">
+                            At Fexten, we believe strong partnerships create stronger businesses. Our Partner Program is designed for <strong>Consultants, IT firms, Audit firms, Marketing Agents</strong> and business advisors who want to grow by offering powerful digital solutions to their clients.
+                        </p>
+                    </div>
+
+                    <div class="partner-info-card" style="animation: slideInLeft 0.8s ease-out 0.2s; animation-fill-mode: both;">
+                        <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                            <i class="fas fa-rocket partner-icon" style="font-size: 2.5rem;"></i>
+                            <h3 style="text-transform: uppercase; margin: 0; font-size: 1.4rem;">What You Get</h3>
+                        </div>
+                        <p style="line-height: 1.8; font-size: 1.05rem; text-align: justify; margin-bottom: 20px;">
+                            By partnering with Fexten, you gain access to our <strong>ERP Cloud Products</strong>, along with full training, technical support, and marketing assistance. We work closely with our partners to help them succeed in sales, implementation, and customer support.
+                        </p>
+                    </div>
+
+                    <div class="partner-info-card" style="animation: slideInLeft 0.8s ease-out 0.4s; animation-fill-mode: both;">
+                        <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                            <i class="fas fa-chart-line partner-icon" style="font-size: 2.5rem;"></i>
+                            <h3 style="text-transform: uppercase; margin: 0; font-size: 1.4rem;">Grow Together</h3>
+                        </div>
+                        <p style="line-height: 1.8; font-size: 1.05rem; text-align: justify; margin-bottom: 20px;">
+                            As a Fexten Partner, you can expand your service portfolio, increase revenue opportunities, and deliver high-value solutions to businesses across industries. We provide tools, resources, and ongoing guidance to ensure you can confidently represent and implement Fexten products.
+                        </p>
+                    </div>
+
+                    <div class="partner-cta-box" style="animation: fadeIn 1s ease-out 0.6s; animation-fill-mode: both;">
+                        <div class="partner-cta-inner">
+                            <i class="fas fa-users" style="font-size: 3rem; margin-bottom: 20px;"></i>
+                            <h3 style="text-transform: uppercase; margin-bottom: 15px; font-size: 1.6rem;">Together, We Build Success</h3>
+                            <p style="font-size: 1.05rem; line-height: 1.7; margin-bottom: 0; opacity: 0.9;">
+                                Join us and become part of a growing network that is transforming businesses through smart, reliable, and scalable technology.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div style="background: #000; padding: 50px; color: #fff; border: 1px solid #333;">
-                    <h2 style="color: #fff; text-transform: uppercase; margin-bottom: 30px;">Become a Partner</h2>
-                    <form>
+
+                <!-- Contact Form -->
+                <div class="partner-form-section" style="animation: slideInRight 0.8s ease-out 0.3s; animation-fill-mode: both;">
+                    <h2 style="text-transform: uppercase; margin-bottom: 30px; font-size: 2rem; text-align: center;">Become a Partner</h2>
+                    <form class="partner-form">
+                        <h3 class="partner-form-title">Contact Form</h3>
+                        
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
                             <div class="form-group">
-                                <label style="color: #888; font-size: 0.8rem; text-transform: uppercase;">Name *</label>
-                                <input type="text" required
-                                    style="background: #111; border-color: #333; color: #fff; padding: 15px;">
+                                <label class="partner-form-label">Name *</label>
+                                <input type="text" required class="partner-form-input">
                             </div>
                             <div class="form-group">
-                                <label style="color: #888; font-size: 0.8rem; text-transform: uppercase;">Mobile No
-                                    *</label>
-                                <input type="tel" required
-                                    style="background: #111; border-color: #333; color: #fff; padding: 15px;">
+                                <label class="partner-form-label">Mobile No *</label>
+                                <input type="tel" required class="partner-form-input">
                             </div>
                         </div>
+                        
                         <div class="form-group" style="margin-bottom: 20px;">
-                            <label style="color: #888; font-size: 0.8rem; text-transform: uppercase;">E-Mail *</label>
-                            <input type="email" required
-                                style="background: #111; border-color: #333; color: #fff; padding: 15px;">
+                            <label class="partner-form-label">E-Mail *</label>
+                            <input type="email" required class="partner-form-input">
                         </div>
+                        
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
                             <div class="form-group">
-                                <label
-                                    style="color: #888; font-size: 0.8rem; text-transform: uppercase;">Company</label>
-                                <input type="text"
-                                    style="background: #111; border-color: #333; color: #fff; padding: 15px;">
+                                <label class="partner-form-label">Company</label>
+                                <input type="text" class="partner-form-input">
                             </div>
                             <div class="form-group">
-                                <label style="color: #888; font-size: 0.8rem; text-transform: uppercase;">Country
-                                    *</label>
-                                <input type="text" required
-                                    style="background: #111; border-color: #333; color: #fff; padding: 15px;">
+                                <label class="partner-form-label">Country *</label>
+                                <input type="text" required class="partner-form-input">
                             </div>
                         </div>
+                        
                         <div class="form-group" style="margin-bottom: 20px;">
-                            <label style="color: #888; font-size: 0.8rem; text-transform: uppercase;">Subject</label>
-                            <input type="text" value="Become a Partner" readonly
-                                style="background: #222; border-color: #333; color: #888; padding: 15px;">
+                            <label class="partner-form-label">Subject *</label>
+                            <input type="text" value="Become a Partner" readonly class="partner-form-input partner-form-readonly">
                         </div>
+                        
                         <div class="form-group" style="margin-bottom: 30px;">
-                            <label style="color: #888; font-size: 0.8rem; text-transform: uppercase;">Message</label>
-                            <textarea rows="4"
-                                style="background: #111; border-color: #333; color: #fff; padding: 15px; width: 100%;"></textarea>
+                            <label class="partner-form-label">Message</label>
+                            <textarea rows="5" class="partner-form-input" style="resize: vertical;"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-filled"
-                            style="width: 100%; background: #fff; color: #000 !important; border-color: #fff;">Join
-                            Program</button>
+                        
+                        <button type="submit" class="btn btn-filled partner-submit-btn">
+                            <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>Join Partner Program
+                        </button>
                     </form>
                 </div>
+
             </div>
         </div>
     </section>
