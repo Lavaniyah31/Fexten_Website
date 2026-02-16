@@ -65,8 +65,8 @@ body {
 }
 
 .hero h1 {
-    font-size: clamp(3.5rem, 9vw, 6rem);
-    font-weight: 800;
+    font-size: clamp(1.0rem, 9vw, 6rem);
+    font-weight: 500;
     letter-spacing: -3px;
     line-height: 1.1;
     margin-bottom: 30px;
@@ -933,7 +933,7 @@ textarea:focus {
     flex: 0 0 calc(33.333% - 14px);
     min-width: calc(33.333% - 14px);
     max-width: calc(33.333% - 14px);
-    padding: 25px 20px;
+    padding: 20px 18px;
     border: 1px solid #444;
     background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
     display: flex;
@@ -942,7 +942,7 @@ textarea:focus {
     box-sizing: border-box;
     position: relative;
     transition: all 0.4s ease;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1.1;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
@@ -983,7 +983,7 @@ textarea:focus {
 .testimonial-text {
     font-family: 'Merriweather', serif;
     font-style: italic;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     opacity: 0.85;
     font-size: 0.98rem;
     text-align: center;
@@ -996,7 +996,7 @@ textarea:focus {
 
 .testimonial-author {
     margin-top: auto;
-    padding-top: 10px;
+    padding-top: 8px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
 }
@@ -1006,7 +1006,7 @@ textarea:focus {
     font-weight: 700;
     font-size: 0.88rem;
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 0;
     color: #fff;
 }
 
